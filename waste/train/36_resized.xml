@@ -1,7 +1,7 @@
 <annotation>
 	<folder>rezized_images</folder>
-	<filename>16_resized.JPG</filename>
-	<path>/home/olle/pytorch_obj_det/olle/20211025_Custom_Object_Detection_using_PyTorch_Faster_RCNN/rezized_images/16_resized.JPG</path>
+	<filename>36_resized.JPG</filename>
+	<path>/home/olle/pytorch_obj_det/olle/20211025_Custom_Object_Detection_using_PyTorch_Faster_RCNN/rezized_images/36_resized.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,99 +12,75 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>glass_bottle</name>
+		<name>metal_can</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>293</xmin>
-			<ymin>200</ymin>
-			<xmax>607</xmax>
-			<ymax>383</ymax>
+			<xmin>165</xmin>
+			<ymin>234</ymin>
+			<xmax>269</xmax>
+			<ymax>360</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>glass_bottle</name>
+		<name>metal_can</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>601</xmin>
-			<ymin>283</ymin>
-			<xmax>726</xmax>
-			<ymax>549</ymax>
+			<xmin>402</xmin>
+			<ymin>209</ymin>
+			<xmax>495</xmax>
+			<ymax>295</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>glass_bottle</name>
+		<name>metal_can</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>373</xmin>
-			<ymin>14</ymin>
-			<xmax>528</xmax>
-			<ymax>161</ymax>
+			<xmin>525</xmin>
+			<ymin>152</ymin>
+			<xmax>617</xmax>
+			<ymax>229</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>glass_bottle</name>
+		<name>metal_can</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>142</xmin>
-			<ymin>80</ymin>
-			<xmax>277</xmax>
-			<ymax>223</ymax>
+			<xmin>276</xmin>
+			<ymin>55</ymin>
+			<xmax>363</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>glass_bottle</name>
+		<name>metal_can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>18</ymin>
+			<xmax>218</xmax>
+			<ymax>112</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>metal_can</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>758</xmin>
+			<xmin>205</xmin>
 			<ymin>1</ymin>
-			<xmax>858</xmax>
-			<ymax>36</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>metal_can</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>85</xmin>
-			<ymin>359</ymin>
-			<xmax>225</xmax>
-			<ymax>534</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>metal</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>338</xmin>
-			<ymin>459</ymin>
-			<xmax>435</xmax>
-			<ymax>578</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>metal</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>147</ymin>
-			<xmax>61</xmax>
-			<ymax>215</ymax>
+			<xmax>267</xmax>
+			<ymax>55</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -114,33 +90,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>109</ymin>
-			<xmax>36</xmax>
-			<ymax>159</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>metal_can</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>839</xmin>
-			<ymin>211</ymin>
-			<xmax>858</xmax>
-			<ymax>298</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>metal</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>827</xmin>
-			<ymin>148</ymin>
-			<xmax>858</xmax>
-			<ymax>184</ymax>
+			<ymin>274</ymin>
+			<xmax>62</xmax>
+			<ymax>405</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +101,58 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>142</xmin>
-			<ymin>76</ymin>
-			<xmax>260</xmax>
-			<ymax>191</ymax>
+			<xmin>202</xmin>
+			<ymin>482</ymin>
+			<xmax>313</xmax>
+			<ymax>596</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>361</ymin>
+			<xmax>125</xmax>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>361</ymin>
+			<xmax>177</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>399</ymin>
+			<xmax>46</xmax>
+			<ymax>451</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>metal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>476</xmin>
+			<ymin>284</ymin>
+			<xmax>572</xmax>
+			<ymax>374</ymax>
 		</bndbox>
 	</object>
 </annotation>
