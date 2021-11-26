@@ -7,6 +7,8 @@ import glob as glob
 import time
 from config import RESIZE_TO
 from config import CLASSES
+from config import MODEL_DICT_FILE
+from config import OUT_DIR
 from detection_utils import draw_bboxes
 from model import create_model
 import argparse
@@ -43,7 +45,7 @@ device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 # load the model and the trained weights
 model = create_model(num_classes=5).to(device)
 model.load_state_dict(torch.load(
-    '../outputs/model6.pth', map_location=device
+     MODEL_DICT_FILE, map_location=device
 ))
 model.eval()
 
