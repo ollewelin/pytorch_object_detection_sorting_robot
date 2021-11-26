@@ -79,10 +79,17 @@ https://www.anaconda.com/products/individual
 ### Training 
 
 	$ cd src
-	$ python train.py
+	$ python trin.py
 	
+### Inference video input
+
+	$ cd src
+	$ python inference.py -i ../input/video1.MP
 	
-        
+### Inference video webcam
+
+	$ cd src
+	$ python inference_webcam.py
 
 ### Video to Image tool
 
