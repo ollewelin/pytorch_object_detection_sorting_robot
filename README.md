@@ -9,7 +9,9 @@ Maybe also test run the inference with an Jetson Nano and TensorRT as well as on
 
 ## Thanks to..
 
-This project was stongly inpired by this tutorial from 
+This project was stongly inpired by this awsome tutorial made by
+
+Sovit Ranjan Rath
 
 https://debuggercafe.com
 
