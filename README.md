@@ -79,7 +79,7 @@ https://www.anaconda.com/products/individual
 ### Training 
 
 	$ cd src
-	$ python trin.py
+	$ python train.py
 	
 ### Inference video input
 
