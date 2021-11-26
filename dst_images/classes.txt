@@ -1,0 +1,4 @@
+glass_bottle
+metal
+metal_can
+plastic_bottle
