@@ -75,6 +75,13 @@ https://www.anaconda.com/products/individual
 
     $ pip install opencv-python
     $ pip install tqdm
+    
+### Training 
+
+	$ cd src
+	$ python train.py
+	
+	
         
 
 ### Video to Image tool
