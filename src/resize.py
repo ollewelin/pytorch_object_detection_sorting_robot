@@ -10,13 +10,34 @@ args = vars(parser.parse_args())
 img_dir = args['input']  
 data_path = os.path.join(img_dir,'*.JPG') 
 files = glob.glob(data_path) 
+
+#== create a destination folder =====
+# Directory
+directory = "resized_images"
+  
+# Parent Directory path
+parent_dir = "./"
+  
+# mode
+mode = 0o777
+  
+# Path
+dst_dir = os.path.join(parent_dir, directory)
+# Create the directory
+#with mode 0o777
+os.mkdir(dst_dir, mode)
+#os.mkdir(dst_dir)
+print("Directory '% s' created" % directory)
+#====================================
+#import subprocess
+
 #The pixel width outputS
 out_width = 858  
 print("Rezize image *.JPG to width size = ", out_width)
 # Calculated with respect to in_width, in_height and out_width
 out_height = 0 
 MIN_IMG_SIZE = 10
-dst_dir = "../rezized_images/"
+
 dst_ext = "_resized.JPG"
 img_count = 0
 for f1 in files: 
@@ -33,8 +54,10 @@ for f1 in files:
         print('Resized Dimensions : ',resized.shape)
         cv2.imshow("Resized image", resized)
         dst_c_str = str(img_count)
-        print("Save image :", dst_dir + dst_c_str + dst_ext)
-        cv2.imwrite(dst_dir + dst_c_str + dst_ext, resized)
+        file_n = str(dst_dir + "/" + dst_c_str + dst_ext)
+        print("Save image :", file_n)
+        cv2.imwrite(file_n, resized)
+        #subprocess.call(['chmod', mode, file_n])
         #cv2.imwrite(f1 + img_ext, resized)
         img_count = img_count + 1
     else:
