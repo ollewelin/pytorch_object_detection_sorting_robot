@@ -86,6 +86,8 @@ https://www.anaconda.com/products/individual
 	$ cd src
 	$ python inference.py -i ../input/video2.MP4
 	
+#### Output example after 12 epoch training (Note gif view is faster then 3.75fps, not the real fps)	
+	
 ![](outputs/video2.gif)
 	
 ### Inference video webcam
