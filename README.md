@@ -1,5 +1,7 @@
 # Object detection with PyTorch for sorting robot
 
+#### Example inference on NVIDIA GTX1650 ~3.75fps
+
 ![](outputs/video3.gif)
 
 This repository will contain will contain an open source intruction for a sorting robot project with pytorch object detection.
@@ -91,10 +93,6 @@ https://www.anaconda.com/products/individual
 #### Training loss 
 
 ![](outputs/train_loss_12.png)
-	
-#### Output example after 12 epoch training (Note gif view is faster then 3.75fps, not the real fps)	
-	
-![](outputs/video2.gif)
 	
 ### Inference video webcam
 
