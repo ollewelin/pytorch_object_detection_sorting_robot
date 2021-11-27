@@ -4,7 +4,7 @@
 
 ![](outputs/video3.gif)
 
-This repository will contain an open source intruction for a sorting robot project with pytorch object detection.
+This repository will contain instructions and code for a sorting robot project with pytorch object detection.
 
 To be continued ... Not finish yet
 
