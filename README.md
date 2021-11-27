@@ -84,7 +84,7 @@ https://www.anaconda.com/products/individual
 ### Inference video input
 
 	$ cd src
-	$ python inference.py -i ../input/video1.MP4
+	$ python inference.py -i ../input/video2.MP4
 	
 ### Inference video webcam
 
