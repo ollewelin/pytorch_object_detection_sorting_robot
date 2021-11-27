@@ -86,6 +86,8 @@ https://www.anaconda.com/products/individual
 	$ cd src
 	$ python inference.py -i ../input/video2.MP4
 	
+![](outputs/video2.MP4)
+	
 ### Inference video webcam
 
 	$ cd src
@@ -94,7 +96,7 @@ https://www.anaconda.com/products/individual
 ### Video to Image tool
 
     $ cd src
-    $ python video_to_images.py -i ../input/waste1.MP4
+    $ python video_to_images.py -i ../input/video1.MP4
     
 ### Image resize tool
 
