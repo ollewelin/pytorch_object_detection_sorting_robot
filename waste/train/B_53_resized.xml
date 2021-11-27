@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>B_53_resized.JPG</filename>
+	<path>/home/olle/pytorch_obj_det/git/pytorch_object_detection_sorting_robot/waste/train/B_53_resized.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>858</width>
+		<height>643</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>glass_bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>355</xmin>
+			<ymin>95</ymin>
+			<xmax>693</xmax>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>

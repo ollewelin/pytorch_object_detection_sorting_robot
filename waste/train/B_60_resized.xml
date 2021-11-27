@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>B_60_resized.JPG</filename>
+	<path>/home/olle/pytorch_obj_det/git/pytorch_object_detection_sorting_robot/waste/train/B_60_resized.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>858</width>
+		<height>643</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>metal_can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>248</xmin>
+			<ymin>103</ymin>
+			<xmax>621</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+</annotation>
