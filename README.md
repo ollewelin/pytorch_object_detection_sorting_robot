@@ -85,6 +85,10 @@ https://www.anaconda.com/products/individual
 
 	$ cd src
 	$ python inference.py -i ../input/video2.MP4
+
+#### Training loss 
+
+![](outputs/train_loss_12.png)
 	
 #### Output example after 12 epoch training (Note gif view is faster then 3.75fps, not the real fps)	
 	
