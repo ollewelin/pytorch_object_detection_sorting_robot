@@ -1,5 +1,7 @@
 # Object detection with PyTorch for sorting robot
 
+![](outputs/video3.gif)
+
 This repository will contain will contain an open source intruction for a sorting robot project with pytorch object detection.
 
 To be continued ... Not finish yet
