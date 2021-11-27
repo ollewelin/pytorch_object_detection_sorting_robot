@@ -16,7 +16,7 @@ files = glob.glob(data_path)
 directory = "resized_images"
   
 # Parent Directory path
-parent_dir = "./"
+parent_dir = "../"
   
 # mode
 mode = 0o777
