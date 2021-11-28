@@ -171,8 +171,17 @@ Example:
 
 To be continues...
     
-# My own Notice 
+# (My own Notice)
 
 ## change strings in files
 
 	sed -i 's/old_class_name/class-1/g' *.xml
+	
+## Wifi driver Pre installation on my personal TUF gaming Lap top 
+```
+git clone https://github.com/tomaspinho/rtl8821ce.git
+sudo apt install bc module-assistant build-essential dkms
+sudo m-a prepare
+sudo ./dkms-install.sh
+```
+
