@@ -41,6 +41,10 @@ CPU:	AMD® Ryzen 5 3550h with radeon vega mobile gfx × 8
 
 ### Install git
 
+Open a terminal shell
+
+	CTRL+ALT+T
+
 	$ sudo apt-get update
 	$ sudo apt-get install git
         
@@ -113,7 +117,11 @@ https://www.anaconda.com/products/individual
 
     $ pip install opencv-python
     $ pip install tqdm
-   
+
+### Download this git repository
+
+	$ git clone https://github.com/ollewelin/pytorch_object_detection_sorting_robot
+	$ cd pytorch_object_detection_sorting_robot
    
 ### Training 
 
