@@ -136,6 +136,10 @@ Python 3.9
 
     $ pip install opencv-python
     $ pip install tqdm
+    
+### Install VS code 
+
+	$ sudo snap install --classic code
 
 ### Download this git repository
 
