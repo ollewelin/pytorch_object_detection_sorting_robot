@@ -59,8 +59,31 @@ https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/
     $ nvidia-smi
 
 
-...
-...
+'Sun Nov 28 11:48:42 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 495.44       Driver Version: 495.44       CUDA Version: 11.5     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   39C    P8     3W /  N/A |    482MiB /  3911MiB |      5%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      1126      G   /usr/lib/xorg/Xorg                 28MiB |
+|    0   N/A  N/A      1385      G   /usr/bin/gnome-shell               67MiB |
+|    0   N/A  N/A      2241      G   /usr/lib/xorg/Xorg                173MiB |
+|    0   N/A  N/A      2430      G   /usr/bin/gnome-shell               50MiB |
+|    0   N/A  N/A      3365      G   /usr/lib/firefox/firefox          156MiB |
+|    0   N/A  N/A      3573      G   /usr/lib/firefox/firefox            1MiB |
+'
 
 ### Install Ananconda
 
