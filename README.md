@@ -184,5 +184,6 @@ cd rtl8821ce
 sudo apt install bc module-assistant build-essential dkms
 sudo m-a prepare
 sudo ./dkms-install.sh
+sudo reboot
 ```
 
