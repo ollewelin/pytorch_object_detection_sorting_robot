@@ -71,8 +71,8 @@ Open a terminal shell
 	sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 
 	sudo apt update
-	sudo apt install cuda-10-1
-	sudo apt install libcudnn7
+	sudo apt install cuda-10-2
+	sudo apt install libcudnn8
 
 #### reboot
     $ sudo reboot
