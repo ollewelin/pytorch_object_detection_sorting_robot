@@ -59,7 +59,8 @@ https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/
     $ nvidia-smi
 
 
-'Sun Nov 28 11:48:42 2021       
+
+```Sun Nov 28 11:48:42 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 495.44       Driver Version: 495.44       CUDA Version: 11.5     |
 |-------------------------------+----------------------+----------------------+
@@ -83,7 +84,8 @@ https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/
 |    0   N/A  N/A      2430      G   /usr/bin/gnome-shell               50MiB |
 |    0   N/A  N/A      3365      G   /usr/lib/firefox/firefox          156MiB |
 |    0   N/A  N/A      3573      G   /usr/lib/firefox/firefox            1MiB |
-'
+
+```
 
 ### Install Ananconda
 
