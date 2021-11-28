@@ -35,6 +35,11 @@ https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/
         Tested on my comututer ASUS TUF gaming Laptop
         OS:     Ubuntu18
         GPU:     GPU 0: NVIDIA GeForce GTX 1650
+
+### Install git
+
+	$ sudo apt-get update
+	$ sudo apt-get install git
         
 ### Install nvidia driver 
 
