@@ -4,6 +4,10 @@
 
 ![](outputs/video3.gif)
 
+### Youtube
+
+https://www.youtube.com/watch?v=hs3T9dLYPP4
+
 This repository will contain instructions and code for a sorting robot project with pytorch object detection.
 
 To be continued ... Not finish yet
