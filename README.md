@@ -180,6 +180,7 @@ To be continues...
 ## Wifi driver Pre installation on my personal TUF gaming Lap top 
 ```
 git clone https://github.com/tomaspinho/rtl8821ce.git
+cd rtl8821ce
 sudo apt install bc module-assistant build-essential dkms
 sudo m-a prepare
 sudo ./dkms-install.sh
