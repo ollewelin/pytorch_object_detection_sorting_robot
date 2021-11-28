@@ -70,6 +70,7 @@ https://www.anaconda.com/products/individual
 ### Create new conda enviroment with all dependency
 
     $ conda create -n torch
+    $ conda activate torch
     $ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
     $ conda install -c anaconda scipy
     $ conda install -c anaconda scikit-image
@@ -79,6 +80,25 @@ https://www.anaconda.com/products/individual
 
     $ pip install opencv-python
     $ pip install tqdm
+    
+### Install labelImg tool for anotating your own dataset images
+	
+	$ git clone https://github.com/tzutalin/labelImg
+	$ conda activate base
+	$ conda install pyqt=5
+	$ conda install -c anaconda lxml
+	$ pyrcc5 -o libs/resources.py resources.qrc
+	
+	
+#### Start labelImg	
+	
+	$ python labelImg.py
+	$ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
+Example:
+
+	$ python labelImg.py ../../git/pytorch_object_detection_sorting_robot/waste/train ../../git/pytorch_object_detection_sorting_robot/dst_images/classes.txt ../../git/pytorch_object_detection_sorting_robot/waste/train
+
     
 ### Training 
 
