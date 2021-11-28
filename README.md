@@ -133,6 +133,11 @@ Example:
     $ cd src
     $ python resize.py -i ../src_images/
 
+# For jetson Nano users. 
+
+## Converting model.pt to ONNX for TensorRT
+
+To be continues...
     
 # My own Notice 
 
