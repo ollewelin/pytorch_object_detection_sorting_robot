@@ -83,6 +83,7 @@ Open a terminal shell
 
 
 ```Sun Nov 28 11:48:42 2021       
+Sun Nov 28 14:46:09 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 495.44       Driver Version: 495.44       CUDA Version: 11.5     |
 |-------------------------------+----------------------+----------------------+
@@ -91,7 +92,7 @@ Open a terminal shell
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  NVIDIA GeForce ...  Off  | 00000000:01:00.0 Off |                  N/A |
-| N/A   39C    P8     3W /  N/A |    482MiB /  3911MiB |      5%      Default |
+| N/A   42C    P8     3W /  N/A |    352MiB /  3911MiB |     26%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -100,13 +101,10 @@ Open a terminal shell
 |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
 |        ID   ID                                                   Usage      |
 |=============================================================================|
-|    0   N/A  N/A      1126      G   /usr/lib/xorg/Xorg                 28MiB |
-|    0   N/A  N/A      1385      G   /usr/bin/gnome-shell               67MiB |
-|    0   N/A  N/A      2241      G   /usr/lib/xorg/Xorg                173MiB |
-|    0   N/A  N/A      2430      G   /usr/bin/gnome-shell               50MiB |
-|    0   N/A  N/A      3365      G   /usr/lib/firefox/firefox          156MiB |
-|    0   N/A  N/A      3573      G   /usr/lib/firefox/firefox            1MiB |
-
+|    0   N/A  N/A      1517      G   /usr/lib/xorg/Xorg                167MiB |
+|    0   N/A  N/A      1702      G   /usr/bin/gnome-shell               44MiB |
+|    0   N/A  N/A      2238      G   /usr/lib/firefox/firefox          138MiB |
++-----------------------------------------------------------------------------+
 ```
 
 ### Install Ananconda
