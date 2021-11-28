@@ -113,6 +113,17 @@ Open a terminal shell
 
 https://www.anaconda.com/products/individual
 
+Download for Linux
+
+```
+Python 3.9
+64-Bit (x86) Installer (581 MB)
+```
+	$ cd Downloads
+	$ bash Anaconda3-2021.11-Linux-x86_64.sh
+	$ Enter 
+	$ yes
+
 
 ### Create new conda enviroment with all dependency
 
