@@ -32,10 +32,12 @@ https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/
 
 ## Installation
 
-        Tested on my comututer ASUS TUF gaming Laptop
-        OS:     Ubuntu18
-     	GPU:    GPU 0: NVIDIA GeForce GTX 1650
-        CPU:	AMD® Ryzen 5 3550h with radeon vega mobile gfx × 8 
+Tested on my comututer ASUS TUF gaming Laptop
+```
+OS:     Ubuntu18
+GPU:    GPU 0: NVIDIA GeForce GTX 1650
+CPU:	AMD® Ryzen 5 3550h with radeon vega mobile gfx × 8 
+```
 
 ### Install git
 
