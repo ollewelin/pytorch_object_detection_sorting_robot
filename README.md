@@ -122,6 +122,8 @@ Take lot of images of course
 Example:
 
 	$ python labelImg.py ../../git/pytorch_object_detection_sorting_robot/waste/train ../../git/pytorch_object_detection_sorting_robot/dst_images/classes.txt ../../git/pytorch_object_detection_sorting_robot/waste/train
+	
+![](labelImg_example.png)
 
 ### Video to Image tool
 
