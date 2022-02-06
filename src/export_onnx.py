@@ -12,7 +12,7 @@ model.load_state_dict(torch.load(
 ))
 model.eval()
 
-dummpy_input = torch.randn(1, 3, 1333, 800)
+dummpy_input = torch.randn(1, 3, 640, 480)
 dummpy_input = dummpy_input.to(device)
 #model.eval()
 model(dummpy_input)
