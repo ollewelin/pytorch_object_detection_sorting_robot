@@ -76,7 +76,13 @@ while(cap.isOpened()):
         # make the pixel range between 0 and 1
         image /= 255.0
         # bring color channels to front
-        image = np.transpose(image, (2, 0, 1)).astype(np.float)
+        
+        # depcreted
+        # image = np.transpose(image, (2, 0, 1)).astype(np.float) 
+
+        # new format
+        image = np.transpose(image, (2, 0, 1)).astype(np.float32)
+
         # convert to tensor
         image = torch.tensor(image, dtype=torch.float).cuda()
         # add batch dimension
